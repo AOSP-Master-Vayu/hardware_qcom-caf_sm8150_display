@@ -1,4 +1,3 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
 
 ifneq ($(TARGET_DISABLE_DISPLAY),true)
 sdm-libs := sdm/libs
@@ -24,4 +23,3 @@ endif
 endif
 endif #TARGET_DISABLE_DISPLAY
 
-endif
